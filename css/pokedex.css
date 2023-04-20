@@ -1,0 +1,86 @@
+body{
+    background-color: #1600BF;
+    color: #FFB900;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#pokemon-container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.poke-logo,img{
+    padding-left: 50px;
+    padding-right: 300px;
+}
+.poke-icon,img{
+    padding-right: 100px;
+    padding-left: 300px;
+}
+
+.image-container, img{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card, img{
+    background-color: #1600BF;
+}
+
+
+.card-text, p{
+    font-size: 1.5rem;
+    color: #FFB900;
+}
+
+
+
+footer{
+    background-color: #FFB900;
+    color: #1600BF;
+    font-weight: bold;
+    text-align: center;
+    padding: 100px;
+    margin: 0;
+}
+
+.card {
+    background-color: #1600BF;
+    margin: 10px;
+    text-align: center;
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 20%;
+    flex-grow: 1;
+  }
+  
+  @media (max-width: 1200px) {
+    .card {
+      flex-basis: 25%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex-basis: 50%;
+    }
+  }
